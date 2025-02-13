@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        // JavaScript
+
+        let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
+
+        for (let i = 1; i <= answer; i++) {
+            if (i % 3 === 0 && i % 5 === 0) {       // If dividing by 3 and 5 leaves a remainder of zero
+                console.log("FizzBuzz")             // then print "FizzBuzz"
+            } else if (i % 3 === 0) {               // If dividing by 3 leaves a remainder of zero
+                console.log("Fizz");                // then print "Fizz"                                                            
+            } else if (i % 5 === 0) {               // If dividing by 5 leaves a remainder of zero
+                console.log("Buzz")                 // then print "Buzz"
+            } else {
+                console.log(i)                      // if not then print number
+            }                          
+        }
+
+
+
+
+    </script>
+    
+</body>
+</html>
